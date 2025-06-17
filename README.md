@@ -1,54 +1,34 @@
-# React + TypeScript + Vite
+# Web Programming Challenges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of web development challenges focused on practicing and improving skills in **HTML**, **CSS**, and **JavaScript**.
 
-Currently, two official plugins are available:
+## 📚 What’s inside
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Each challenge is organized in its own folder and includes:
 
-## Expanding the ESLint configuration
+- 📁 HTML/CSS/JS/TSX/JSX files
+- ✅ A clear objective or task
+- 📝 Optional solutions or explanations
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Goals
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Improve front-end coding skills through real practice.
+- Learn to solve problems using HTML, CSS, JavaScript, TypeScript.
+- Build a portfolio of small but meaningful projects.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠 Technologies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- HTML5
+- CSS3 (Flexbox, Grid, etc.)
+- Vanilla JavaScript (ES6+)
+- TypeScript
+- React
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+🙌 Contributing
+Feel free to fork the repo, try the challenges, or even add your own!
+
+## 👨🏻‍💻 Author
+
+Made with 💻 and ☕ by [zXAZURIANXz](https://github.com/zXAZURIANXz) , <That´s my shinoby way />
+
+
